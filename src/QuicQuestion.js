@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class QuizQuestion extends Component {
     constructor(props ) {
         super(props);
@@ -15,8 +14,6 @@ class QuizQuestion extends Component {
         
     }
      
-
-
 render(){
     return(
      <main>
@@ -32,6 +29,5 @@ render(){
     )
 }    
 }
-
 
 export default QuizQuestion;
