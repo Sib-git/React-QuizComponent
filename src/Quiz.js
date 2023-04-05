@@ -9,19 +9,9 @@ class Quiz extends Component {
   }
 
   render() {
-    const quizData = {
-      quiz_questions: [
-        {
-          instruction_text: "What's your favorite color?",
-          answer_options: [
-            { option_text: "Red" },
-            { option_text: "Green" },
-            { option_text: "Blue" },
-            { option_text: "Yellow" }
-          ]
-        }
-      ]
-    };
+    return (
+      <div><div className="QuizQuestion">{quizData.quiz_questions[0].instruction_text}</div></div>
+    )
 
     const question = quizData.quiz_questions[this.state.quiz_position - 1];
 
